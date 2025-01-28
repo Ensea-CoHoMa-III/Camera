@@ -1,0 +1,18 @@
+caméra sur balise : 
+
+se connecte à lapin le plus proche (peut être temps en access point au début pour les tests)
+	1 en dessous :
+		mesure distance
+
+	4 sur les cotés :
+		détection de rouge / mouvement
+
+
+
+
+
+
+(IA 
+detection : attention a trop grande sensibilité
+
+)
