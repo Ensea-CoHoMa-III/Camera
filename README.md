@@ -7,7 +7,7 @@ This file explains the basic on how to access the video streaming of the camera.
 
 ## How to set the camera to a wifi station
 - Open "CameraAsStation" folder,
-- Modify the wifi name and wifi password
+- Modify the wifi name and wifi password in "main.cpp"
 - Change the COM port in the platformio.ini file (the COm port is shown at the bottom in the middle (orignally written "Auto"), modified by choosing the port)
 - Look at the printed message telling you the ip to access the camera
 - (the video only shows by pressing "Start stream" at the bottom) 
