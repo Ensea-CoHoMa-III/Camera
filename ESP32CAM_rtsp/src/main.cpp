@@ -328,6 +328,8 @@ void setup()
   // Delay for USB to connect/settle
   delay(5000);
 #endif
+  Serial.println("test debut\r\n\n");
+
 
   log_i("Core debug level: %d", CORE_DEBUG_LEVEL);
   log_i("CPU Freq: %d Mhz, %d core(s)", getCpuFrequencyMhz(), ESP.getChipCores());
@@ -405,6 +407,7 @@ void setup()
 void loop()
 {
   iotWebConf.doLoop();
+  //Serial.println("test");
 
   if (camera_server)
     camera_server->doLoop();
